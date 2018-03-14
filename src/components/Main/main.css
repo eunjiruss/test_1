@@ -1,0 +1,32 @@
+.main_page {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 600px;
+}
+
+p {
+    grid-column: 3/4;
+    align-content: center;
+}
+
+
+.bttn_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 60px;
+    
+    align-content: center;
+    margin: 30px;
+}
+.bttn_wrapper > button {
+    height:40px;
+    background-color: #EBF4FA;
+
+}
+
+
+
+
+
+
